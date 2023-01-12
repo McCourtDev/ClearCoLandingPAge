@@ -35,28 +35,28 @@ export const Staff = () => {
             <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
               About ClearCo
             </h1>
-            <ul className="list-disc py-2 mx-4 ">
+            <ul className="list-disc py-2 mx-4  font-medium">
               <li>
                 All our staff are fully trained and dedicated in every aspect of
                 their job roles and duties.
               </li>
             </ul>
-            <ul className="list-disc py-2 mx-4 ">
+            <ul className="list-disc py-2 mx-4  font-medium">
               <li> Health and Safety is at the core of our business</li>
             </ul>
-            <ul className="list-disc py-2 mx-4 ">
+            <ul className="list-disc py-2 mx-4  font-medium">
               <li>
                 We apply the latest techniques and equipment to ensure best
                 working practices.
               </li>
             </ul>
-            <ul className="list-disc py-2 mx-4 ">
+            <ul className="list-disc py-2 mx-4  font-medium">
               <li>
                 Excellent communication and regular updates with both staff and
                 clients.
               </li>
             </ul>
-            <ul className="list-disc py-2 mx-4">
+            <ul className="list-disc py-2 mx-4 font-medium">
               <li>Source and purchase from local businesses</li>
             </ul>
           </div>
