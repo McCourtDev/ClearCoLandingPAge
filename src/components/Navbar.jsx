@@ -29,7 +29,11 @@ export default function Navbar() {
         </li>
       </ul>
       <div onClick={handleNav} className="block md:hidden">
-        {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
+        {nav ? (
+          <AiOutlineClose size={20} className="fixed top-10 right-4 z-10" />
+        ) : (
+          <AiOutlineMenu size={20} />
+        )}
       </div>
       <div
         className={
