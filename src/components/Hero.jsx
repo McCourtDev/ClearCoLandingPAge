@@ -28,8 +28,8 @@ export const Hero = () => {
           />
           <p className="md:text-5xl sm:text-4xl text-xl font-bold md:py-6"></p>
         </div>
-        <button className="bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black hover:bg-[#00df98bb] shadow-lg">
-          Contact
+        <button className="bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black hover:bg-[#00df98bb] shadow-lg hover:shadow-green-900 hover:duration-1000">
+          Contact Us
         </button>
       </div>
     </div>
